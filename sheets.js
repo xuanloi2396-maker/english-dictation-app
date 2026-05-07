@@ -1,11 +1,11 @@
 const SHEETS = {
 
   business:
-    'https://docs.google.com/spreadsheets/d/e/2PACX-1vTxOzWBWzTmtoygcmh8mIB97ceDBv5XFl5gy3l-AIYbLg6ZECDbdy9SFD02z-4ssS62BCwK2fBJ23En/pub?output=csv',
+    'https://docs.google.com/spreadsheets/d/1iOUgh0wBEViE2wfghHGpj5aPDeayrmUIdubBwz5Z9_A/gviz/tq?tqx=out:csv',
 
   ielts:
-    'https://docs.google.com/spreadsheets/d/e/2PACX-1vTxOzWBWzTmtoygcmh8mIB97ceDBv5XFl5gy3l-AIYbLg6ZECDbdy9SFD02z-4ssS62BCwK2fBJ23En/pub?output=csv',
+    'https://docs.google.com/spreadsheets/d/1iOUgh0wBEViE2wfghHGpj5aPDeayrmUIdubBwz5Z9_A/gviz/tq?tqx=out:csv',
 
   aviation:
-    'https://docs.google.com/spreadsheets/d/e/2PACX-1vQbC1nzAXeUJ-u2CFwyGiD5PfeG9zMvvKv-5kNXD6nTtUxhG3a3Z2gxJDGFiUIvtWjqxxSn2VxMU4DO/pub?output=csv'
+    'https://docs.google.com/spreadsheets/d/1iOUgh0wBEViE2wfghHGpj5aPDeayrmUIdubBwz5Z9_A/gviz/tq?tqx=out:csv'
 }
