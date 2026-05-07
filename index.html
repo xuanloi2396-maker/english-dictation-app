@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Dictation App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🎧 English Dictation App</h1>
+
+    <div class="card">
+
+      <h2>Select Topic</h2>
+
+      <select id="topicSelect">
+        <option value="business">Business English</option>
+        <option value="ielts">IELTS Vocabulary</option>
+        <option value="aviation">Aviation English</option>
+      </select>
+
+      <div class="range-box">
+        <input type="number" id="startRange" placeholder="Start Number">
+        <input type="number" id="endRange" placeholder="End Number">
+      </div>
+
+      <button id="startBtn">Start</button>
+
+    </div>
+
+    <div class="card hidden" id="practiceSection">
+
+      <div class="top-bar">
+
+        <div id="progress">
+          0 / 0
+        </div>
+
+        <div>
+          Shift = Replay | Ctrl = Show Answer
+        </div>
+
+      </div>
+
+      <input
+        type="text"
+        id="answerInput"
+        placeholder="Type what you hear"
+        autocomplete="off"
+      >
+
+      <button id="checkBtn">Check</button>
+
+      <div id="resultBox"></div>
+
+    </div>
+
+  </div>
+
+  <script src="sheets.js"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
